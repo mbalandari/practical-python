@@ -1,4 +1,8 @@
-greetings = ["Hello", "Bonjour", "Hola"]
+def hi_to():
+    return "hi"
 
-for greeting in greetings:
-    print(f"{greeting}, World!")
+
+hi_to()
+
+a = hi_to()
+print(a)
